@@ -22,21 +22,36 @@ a {
     padding-left: 10%;
     padding-right: 10%;
 }
-.btn{
+
+.btn {
     background: #fff;
-    color:#212121;
-    padding:14px 25px;
+    color: #212121;
+    padding: 14px 25px;
     font-size: 16px;
     border-radius: 30px;
     border: none;
     cursor: pointer;
-    outline: 0  ;
+    outline: 0;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-.btn.dark-btn{
+
+.btn.dark-btn {
     background: #212ea0;
-    color:#fff;
+    color: #fff;
+}
+
+/* -----media queries----- */
+
+@media (max-width:1200px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+    
 }

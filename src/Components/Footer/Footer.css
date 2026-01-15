@@ -1,0 +1,38 @@
+.footer {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding: 15px 0px;
+    color: #676767;
+}
+.footer p {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+@media (max-width: 840px) {
+    .footer p {
+        font-size: 14px;
+    }
+    .footer ul li{
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+  .footer{
+    display: block;
+    text-align: center;
+
+  }
+  .footer p{
+    margin:10px 0px
+  }
+}

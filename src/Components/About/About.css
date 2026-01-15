@@ -39,4 +39,21 @@ img.about-img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+@media(max-width:840px){
+    .about{
+        flex-direction: column;
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+        order: 2;
+     }
+     h2, h3{
+        text-align:center ;
+     }
+    .about-right{
+        flex-basis: 100%;
+    }
 }

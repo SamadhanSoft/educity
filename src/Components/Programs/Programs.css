@@ -47,3 +47,14 @@
     width: 60px;
     margin-bottom: 10px;
 }
+
+/* media query */
+
+@media(max-width:840px){
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        margin-bottom: 20px;
+    }
+}
