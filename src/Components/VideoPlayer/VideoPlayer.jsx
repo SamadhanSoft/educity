@@ -10,7 +10,6 @@ const ClosePlayer = (e) => {
     }
 
 }
-
   return (
     <div className={`video-player ${playState ? '' : 'hide'}`} ref={player}
     onCLick={ClosePlayer}>
